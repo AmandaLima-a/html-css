@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .csexo {
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <!--
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+            -->
+
+            <col class="cnome">
+            <col class="csexo" span="3">
+
+            <!--
+                <col class="amarelo">
+                <col class="verde">
+                <col class="amarelo">
+                <col class="verde">
+
+                e add uma class de estilo com background-color
+            -->
+        </colgroup>
+
+        <caption>
+            Cadastro
+        </caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Eletricista</td>
+        </tr>
+        <tr>     
+            <td>João</td>
+            <td>M</td>
+            <td>60</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Jogador</td>
+        </tr>
+        <tr>
+            <td>Otavio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>
