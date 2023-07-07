@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(6, 114, 6);
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.116);
+        }
+        table {
+            width: 900px;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: grey;
+        }
+        td , th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td.verde {
+            color: rgb(20, 180, 20);
+            text-align: center;
+        }
+        th#dif {
+            width: 90px;
+        }
+        th#posicao {
+            width: 50px;
+        }
+        .pop {
+            width: 170px;
+        }
+        .numero {
+            text-align: right;
+        }
+        .tot {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" id="posicao">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="pop">População (2022)</th>
+                <th scope="col" class="pop">População (2010)</th>
+                <th scope="col">Mudança</th>
+                <th scope="col" id="dif">% da pop. total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td class="tot">1</td>
+                <td>São Paulo</td>
+                <td class="numero">44 420 459</td>
+                <td class="numero">41 262 199</td>
+                <td class="verde">+7.65%</td>
+                <td class="tot">22,2%</td>
+            </tr>
+            <tr>
+                <td class="tot">2</td>
+                <td>Minas Gerais</td>
+                <td class="numero">20 538 718</td>
+                <td class="numero">19 597 330</td>
+                <td class="verde">+4.8%</td>
+                <td class="tot">10,0%</td>
+            </tr>
+            <tr>
+                <td class="tot">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">16 054 524</td>
+                <td class="numero">15 989 929</td>
+                <td class="verde">+0.4%</td>
+                <td class="tot">8,0%</td>
+            </tr>
+            <tr>
+                <td class="tot">4</td>
+                <td>Bahia</td>
+                <td class="numero">14 136 417</td>
+                <td class="numero">14 016 906</td>
+                <td class="verde">+0.85%</td>
+                <td class="tot">7,1%</td>
+            </tr>
+            <tr>
+                <td class="tot">5</td>
+                <td>Paraná</td>
+                <td class="numero">11 443 208	</td>
+                <td class="numero">10 444 526</td>
+                <td class="verde">+9.56%</td>
+                <td class="tot">5,7%</td>
+            </tr>
+            <tr>
+                <td class="tot">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">10 880 506</td>
+                <td class="numero">10 693 929	</td>
+                <td class="verde">+1.74%</td>
+                <td class="tot">5,3%</td>
+            </tr>
+            <tr>
+                <td class="tot">7</td>
+                <td>Pernambuco</td>
+                <td class="numero">9 058 155</td>
+                <td class="numero">8 796 448	</td>
+                <td class="verde">+2.98%</td>
+                <td class="tot">4,4%</td>
+            </tr>
+            <tr>
+                <td class="tot">8</td>
+                <td>Ceará</td>
+                <td class="numero">8 791 688</td>
+                <td class="numero">8 452 381</td>
+                <td class="verde">+4.01%</td>
+                <td class="tot">4,3%</td>
+            </tr>
+            <tr>
+                <td class="tot">9</td>
+                <td>Pará</td>
+                <td class="numero">8 116 132</td>
+                <td class="numero">7 581 051	</td>
+                <td class="verde">+7.06%</td>
+                <td class="tot">4,1%</td>
+            </tr>
+            <tr>
+                <td class="tot">10</td>
+                <td>Santa Catarina</td>
+                <td class="numero">7 609 601</td>
+                <td class="numero">6 248 436</td>
+                <td class="verde">+21.78%</td>
+                <td class="tot">3,7%</td>
+            </tr>
+            <tr>
+                <td class="tot">11</td>
+                <td>Goiás</td>
+                <td class="numero">7 055 228</td>
+                <td class="numero">6 003 788</td>
+                <td class="verde">+17.51%</td>
+                <td class="tot">3,3%</td>
+            </tr>
+            <tr>
+                <td class="tot">12</td>
+                <td>Maranhão</td>
+                <td class="numero">6 775 152	</td>
+                <td class="numero">6 574 789</td>
+                <td class="verde">+3.05%</td>
+                <td class="tot">3,3%</td>
+            </tr>
+           
+        
+       
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
