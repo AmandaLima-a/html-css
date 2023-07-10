@@ -29,7 +29,7 @@ span#burguer {
     cursor: pointer;
 }
 
-span#burger:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 }
